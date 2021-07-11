@@ -1,0 +1,34 @@
+/* Navbar */
+
+.bg-dark-blue{
+    background-color: #1564C0;
+}
+.navbar {
+    padding: 0 12%;
+    font-weight: 500;
+}
+
+.navbar .search-form {
+    width: 52%;
+}
+
+.navbar a, .navbar a span {
+    font-size: 1.2rem;
+}
+
+.navbar #search-bar::placeholder {
+    color: #fff !important;
+    font-weight: 400;
+    text-align: center;
+}
+
+.navbar #search-bar {
+    width: 100%;
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 13px 15px;
+}
+
+.navbar #search-bar {
+    background-color: #4383CB;
+}

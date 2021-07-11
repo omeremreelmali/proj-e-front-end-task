@@ -1,9 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
 import HomePage from './HomePage';
+import { TopHeader } from './Components';
 function App() {
   return (
-    <div className="container">
+    <div className="page-container">
+      <TopHeader />
       <HomePage />
     </div>
   );

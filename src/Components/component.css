@@ -131,7 +131,7 @@
 }
 
 .home-page-slider .swiper-container-horizontal>.swiper-pagination-bullets, .home-page-slider .swiper-pagination-custom, .home-page-slider .swiper-pagination-fraction {
-    bottom: 0px !important;
+    bottom: -5px !important;
 }
 
 /* list */
@@ -162,7 +162,6 @@
     top: 50%;
     right: 9% !important;
 }
-
 
 /* Product Card */
 
@@ -223,4 +222,50 @@
 
 .product-card .card-img-top {
     width: 50% !important;
+}
+
+/* Footer */
+
+.footer-area {
+    width: 58% !important;
+    color: #727272 !important;
+}
+
+.footer-area .footer-top {
+    border-color: #727272 !important;
+}
+.footer-bottom{
+    padding-left: 10%;
+    padding-right:10%;
+}
+.footer-bottom copyright, .footer-bottom span {
+    color: rgb(114, 114, 114, 0.85) !important;
+}
+
+.footer-area .list-group {
+    margin-top: 15px;
+}
+
+.footer-area .title {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.footer-area .list-group-item {
+    padding: 4px 0 !important;
+    border: none;
+}
+
+.footer-area .list-group-item a {
+    font-size: .9rem !important;
+    color: rgb(114, 114, 114, 0.8) !important;
+    text-decoration: none;
+}
+
+.footer-area .list-group-item a:hover {
+    opacity: 0.5;
+}
+
+.footer-area .list-group.no-title {
+    margin-top: 39px;
 }

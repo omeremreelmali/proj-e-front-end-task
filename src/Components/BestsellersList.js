@@ -32,16 +32,18 @@ export default function BestsellersList() {
         <section className="product-list-padding bestsellers-list my-5 position-relative">
             <div className="title-area d-flex justify-content-between pb-4">
                 <span className="h2" style={{ color: "#424242" }} >Çok Satanlar</span>
-                <a href className="h6 my-auto">TÜM ÇOK SATANLAR <i class="fas fa-arrow-right"></i></a>
+                <a href className="h6 my-auto">TÜM ÇOK SATANLAR <i className="fas fa-arrow-right"></i></a>
             </div>
 
             <Swiper
                 spaceBetween={10}
                 slidesPerView={5}
-                navigation= {
-                    {nextEl: '.swiper-button-next-best-seller',
-                    prevEl: '.swiper-button-prev-best-seller'}
-                  }
+                navigation={
+                    {
+                        nextEl: '.swiper-button-next-best-seller',
+                        prevEl: '.swiper-button-prev-best-seller'
+                    }
+                }
             >
                 {products.map(product =>
                     <div class='item'>
@@ -51,8 +53,8 @@ export default function BestsellersList() {
                     </div>
                 )}
             </Swiper>
-            <div class="swiper-button-prev-best-seller position-absolute"></div>
-            <div class="swiper-button-next-best-seller position-absolute"></div>
+            <div className="swiper-button-prev-best-seller position-absolute"></div>
+            <div className="swiper-button-next-best-seller position-absolute"></div>
         </section>
     )
 }

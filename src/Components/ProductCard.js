@@ -1,7 +1,6 @@
 import React from 'react'
 
 export default function ProductCard({ product }) {
-    console.log(product)
     return (
         <div className="card text-center product-card">
             {product.attr3 ? <span className="sell-now py-2 w-100 position-absolute text-white text-center">
@@ -24,8 +23,8 @@ export default function ProductCard({ product }) {
             </div>
 
             <div className="cart-buttons w-100 position-absoluteü d-none justify-content-center">
-                <button type="button" class="btn btn-primary rounded-0 px-4 py-3"><i class="fas fa-exchange-alt my-auto"></i></button>  
-                <button type="button" class="btn btn-primary rounded-0 w-100 add-cart">SEPETE EKLE</button>  
+                <button type="button" className="btn btn-primary rounded-0 px-4 py-3"><i className="fas fa-exchange-alt my-auto"></i></button>  
+                <button type="button" className="btn btn-primary rounded-0 w-100 add-cart">SEPETE EKLE</button>  
             </div>
         </div>
     )

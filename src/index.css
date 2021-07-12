@@ -9,3 +9,8 @@
 a:hover {
     cursor: pointer;
 }
+
+.bg-image{
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}

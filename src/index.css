@@ -5,7 +5,10 @@
 .page-container {
     padding: 0 8%;
 }
-
+.title-area a{
+    text-decoration: none;
+    color: #295EA4;
+}
 a:hover {
     cursor: pointer;
 }

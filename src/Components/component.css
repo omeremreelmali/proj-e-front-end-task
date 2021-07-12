@@ -30,6 +30,16 @@
     padding: 13px 15px;
 }
 
+.navbar #search-bar:focus+.fa-search {
+    display: none;
+}
+
+.navbar .search-form .fa-search {
+    top: 50%;
+    left: 48.7%;
+    transform: translate(-50%, -50%);
+}
+
 .navbar #search-bar {
     background-color: #4383CB;
 }
@@ -46,6 +56,7 @@
 .home-page-slider .swiper-button-next span, .home-page-slider .swiper-button-prev span {
     padding: 35px 20px !important;
     border-radius: 4px;
+    color: #FFFFFF !important;
     background-color: rgb(0, 0, 0, 0.7);
 }
 
@@ -59,7 +70,7 @@
     left: 0;
 }
 
-.home-page-slider .swiper-button-next::after, .home-page-slider .swiper-button-prev::after {
+.swiper-button-next::after, .swiper-button-prev::after {
     content: '';
 }
 
@@ -97,7 +108,7 @@
     font-weight: bold;
 }
 
-.slide-item-image {
+.home-page-slider .slide-item-image {
     width: 100% !important;
     height: 370px !important;
 }
@@ -126,7 +137,7 @@
 /* list */
 
 .product-list-padding {
-    padding: 0 10% !important;
+    padding: 0 12.5% !important;
 }
 
 .featured-list .list .product {
@@ -135,7 +146,61 @@
     display: inline-block !important;
 }
 
+.bestsellers-list .swiper-button-next-best-seller span, .bestsellers-list .swiper-button-prev-best-seller span {
+    padding: 35px 20px !important;
+    border-radius: 4px;
+    color: #9C9C9C;
+    background-color: #EEEEEE;
+}
+
+.bestsellers-list .swiper-button-prev-best-seller {
+    top: 50%;
+    left: 9% !important;
+}
+
+.bestsellers-list .swiper-button-next-best-seller {
+    top: 50%;
+    right: 9% !important;
+}
+
+
 /* Product Card */
+
+.product-card {
+    border-radius: 0 !important;
+    height: 450px;
+}
+
+.product-card:hover {
+    border: 1px solid #4383CB !important;
+}
+
+.product-card:hover .cart-buttons {
+    display: flex !important;
+    position: absolute !important;
+    bottom: 0;
+}
+
+.product-card .card-body .body-bottom {
+    width: 100% !important;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.product-card .cart-buttons .add-cart:hover {
+    border-color: #2196F3 !important;
+}
+
+.product-card .cart-buttons .add-cart {
+    background-color: #2196F3 !important;
+    border-color: #2196F3 !important
+}
+
+.product-card .sell-now {
+    background-color: #2196F3;
+    top: 0;
+}
 
 .product-card .star {
     color: #FF9101;
@@ -148,9 +213,14 @@
 
 .product-card .alert {
     font-weight: bold;
+    font-size: 0.85rem;
     color: #E03B5D;
 }
 
 .product-card .shipping {
     background-color: #EEEEEE;
+}
+
+.product-card .card-img-top {
+    width: 50% !important;
 }

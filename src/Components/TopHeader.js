@@ -15,6 +15,7 @@ export default function TopHeader() {
             </ul>
             <form className="search-form d-flex mx-5">
                 <input className="form-control border-0" id="search-bar" type="search" placeholder="Ürün Ara" aria-label="Search" />
+                <i class="fas fa-search position-absolute fa-lg text-white"></i>
             </form>
             <ul className="navbar-nav">
                 <li className="nav-item dropdown">

@@ -11,8 +11,8 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 export default function HomePageSlider() {
 
     $(document).ready(function () {
-        $('.swiper-button-next').html('<span><i class="fas fa-caret-right text-white fa-2x"></i></span>');
-        $('.swiper-button-prev').html('<span><i class="fas fa-caret-left text-white fa-2x"></i></span>');
+        $('.swiper-button-next').html('<span><i class="fas fa-caret-right fa-2x"></i></span>');
+        $('.swiper-button-prev').html('<span><i class="fas fa-caret-left fa-2x"></i></span>');
     });
 
     return (

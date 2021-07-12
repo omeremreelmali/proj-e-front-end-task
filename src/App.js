@@ -1,10 +1,11 @@
 import HomePage from './HomePage';
-import { TopHeader } from './Components';
+import { TopHeader,Footer } from './Components';
 function App() {
   return (
     <div className="page-container">
       <TopHeader />
       <HomePage />
+      <Footer/>
     </div>
   );
 }

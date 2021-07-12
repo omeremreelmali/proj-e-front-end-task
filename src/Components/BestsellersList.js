@@ -46,7 +46,7 @@ export default function BestsellersList() {
                 }
             >
                 {products.map(product =>
-                    <div class='item'>
+                    <div className='item'>
                         <SwiperSlide>
                             <ProductCard product={product} />
                         </SwiperSlide>

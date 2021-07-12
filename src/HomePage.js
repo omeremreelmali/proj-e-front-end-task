@@ -1,5 +1,5 @@
 import React from 'react'
-import { HomePageSlider, BestsellersList,FeaturedList } from './Components';
+import { HomePageSlider, BestsellersList, FeaturedList } from './Components';
 
 export default function HomePage() {
     return (

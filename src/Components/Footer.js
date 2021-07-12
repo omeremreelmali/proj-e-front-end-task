@@ -10,33 +10,33 @@ export default function Footer() {
                             <span className="title">
                                 KURUMSAL
                             </span>
-                            <ul class="list-group">
-                                <li class="list-group-item">
+                            <ul className="list-group">
+                                <li className="list-group-item">
                                     <a href="#">
                                         Hakkımızda
                                     </a>
                                 </li>
-                                <li class="list-group-item">
+                                <li className="list-group-item">
                                     <a href="#">
                                         Müşteri Hizmetleri
                                     </a>
                                 </li>
-                                <li class="list-group-item">
+                                <li className="list-group-item">
                                     <a href="#">
                                         Sipariş Aşamaları
                                     </a>
                                 </li>
-                                <li class="list-group-item">
+                                <li className="list-group-item">
                                     <a href="#">
                                         Sıkça Sorulan Sorular
                                     </a>
                                 </li>
-                                <li class="list-group-item">
+                                <li className="list-group-item">
                                     <a href="#">
                                         İnsan Kaynakları
                                     </a>
                                 </li>
-                                <li class="list-group-item">
+                                <li className="list-group-item">
                                     <a href="#">
                                         Gizlilik Politikamız
                                     </a>
@@ -44,28 +44,28 @@ export default function Footer() {
                             </ul>
                         </div>
                         <div className="col">
-                            <ul class="list-group no-title">
-                                <li class="list-group-item">
+                            <ul className="list-group no-title">
+                                <li className="list-group-item">
                                     <a href="#">
                                         İletişim
                                     </a>
                                 </li>
-                                <li class="list-group-item">
+                                <li className="list-group-item">
                                     <a href="#">
                                         Vatan Card
                                     </a>
                                 </li>
-                                <li class="list-group-item">
+                                <li className="list-group-item">
                                     <a href="#">
                                         Servis Takip Formu
                                     </a>
                                 </li>
-                                <li class="list-group-item">
+                                <li className="list-group-item">
                                     <a href="#">
                                         Mağazalar
                                     </a>
                                 </li>
-                                <li class="list-group-item">
+                                <li className="list-group-item">
                                     <a href="#">
                                         İşlem Rehberi
                                     </a>
@@ -77,33 +77,33 @@ export default function Footer() {
                             <span className="title">
                                 KATEGORİLER
                             </span>
-                            <ul class="list-group">
-                                <li class="list-group-item">
+                            <ul className="list-group">
+                                <li className="list-group-item">
                                     <a href="#">
                                         Bilgisayar
                                     </a>
                                 </li>
-                                <li class="list-group-item">
+                                <li className="list-group-item">
                                     <a href="#">
                                         Cep Telefonu
                                     </a>
                                 </li>
-                                <li class="list-group-item">
+                                <li className="list-group-item">
                                     <a href="#">
                                         Tablet PC
                                     </a>
                                 </li>
-                                <li class="list-group-item">
+                                <li className="list-group-item">
                                     <a href="#">
                                         Akıllı Saat
                                     </a>
                                 </li>
-                                <li class="list-group-item">
+                                <li className="list-group-item">
                                     <a href="#">
                                         Vestel TV
                                     </a>
                                 </li>
-                                <li class="list-group-item">
+                                <li className="list-group-item">
                                     <a href="#">
                                         Otun Bilgisayarı
                                     </a>
@@ -111,33 +111,33 @@ export default function Footer() {
                             </ul>
                         </div>
                         <div className="col">
-                            <ul class="list-group no-title">
-                                <li class="list-group-item">
+                            <ul className="list-group no-title">
+                                <li className="list-group-item">
                                     <a href="#">
                                         Küçük Ev Aletleri
                                     </a>
                                 </li>
-                                <li class="list-group-item">
+                                <li className="list-group-item">
                                     <a href="#">
                                         Kişisel Bakım Ürünleri
                                     </a>
                                 </li>
-                                <li class="list-group-item">
+                                <li className="list-group-item">
                                     <a href="#">
                                         Elektrikli Süpürge
                                     </a>
                                 </li>
-                                <li class="list-group-item">
+                                <li className="list-group-item">
                                     <a href="#">
                                         Ütü
                                     </a>
                                 </li>
-                                <li class="list-group-item">
+                                <li className="list-group-item">
                                     <a href="#">
                                         Masa Üstü Bilgisayar
                                     </a>
                                 </li>
-                                <li class="list-group-item">
+                                <li className="list-group-item">
                                     <a href="#">
                                         Sabit Diskler
                                     </a>
@@ -149,43 +149,43 @@ export default function Footer() {
                             <span className="title">
                                 ÖZEL ÜRÜNLER
                             </span>
-                            <ul class="list-group">
-                                <li class="list-group-item">
+                            <ul className="list-group">
+                                <li className="list-group-item">
                                     <a href="#">
                                         iPhone 7
                                     </a>
                                 </li>
-                                <li class="list-group-item">
+                                <li className="list-group-item">
                                     <a href="#">
                                         iPhone 6S
                                     </a>
                                 </li>
-                                <li class="list-group-item">
+                                <li className="list-group-item">
                                     <a href="#">
                                         iPhone 5S
                                     </a>
                                 </li>
-                                <li class="list-group-item">
+                                <li className="list-group-item">
                                     <a href="#">
                                         iPhone SE
                                     </a>
                                 </li>
-                                <li class="list-group-item">
+                                <li className="list-group-item">
                                     <a href="#">
                                         General Mobile 5 Plus
                                     </a>
                                 </li>
-                                <li class="list-group-item">
+                                <li className="list-group-item">
                                     <a href="#">
                                         Galaxy S7
                                     </a>
                                 </li>
-                                <li class="list-group-item">
+                                <li className="list-group-item">
                                     <a href="#">
                                         Note 5
                                     </a>
                                 </li>
-                                <li class="list-group-item">
+                                <li className="list-group-item">
                                     <a href="#">
                                         Galaxy S6
                                     </a>

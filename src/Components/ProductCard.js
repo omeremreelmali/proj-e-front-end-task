@@ -1,6 +1,15 @@
 import React from 'react'
+import { useDispatch } from 'react-redux'
+import { addCart } from '../store/cart/cartSlice'
+import $ from 'jquery';
+window.jQuery = $;
 
 export default function ProductCard({ product }) {
+
+    const dispatch = useDispatch()
+    const addCartProduct = () => {
+        dispatch(addCart())
+    }
     return (
         <div className="card text-center product-card">
             {product.attr3 ? <span className="sell-now py-2 w-100 position-absolute text-white text-center">
@@ -23,8 +32,8 @@ export default function ProductCard({ product }) {
             </div>
 
             <div className="cart-buttons w-100 position-absoluteü d-none justify-content-center">
-                <button type="button" className="btn btn-primary rounded-0 px-4 py-3"><i className="fas fa-exchange-alt my-auto"></i></button>  
-                <button type="button" className="btn btn-primary rounded-0 w-100 add-cart">SEPETE EKLE</button>  
+                <button type="button" className="btn btn-primary rounded-0 px-4 py-3"><i className="fas fa-exchange-alt my-auto"></i></button>
+                <button type="button" className="btn btn-primary rounded-0 w-100 add-cart" onClick={addCartProduct}>SEPETE EKLE</button>
             </div>
         </div>
     )
